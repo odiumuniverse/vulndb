@@ -18,10 +18,10 @@ import (
 	"strings"
 
 	"golang.org/x/vulndb/internal/genai"
-	"golang.org/x/vulndb/internal/genericosv"
 	"golang.org/x/vulndb/internal/ghsarepo"
 	"golang.org/x/vulndb/internal/report"
 	"golang.org/x/vulndb/internal/stdlib"
+	"golang.org/x/vulndb/pkg/genericosv"
 )
 
 var (

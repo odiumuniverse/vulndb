@@ -7,7 +7,7 @@ package triage
 import (
 	"fmt"
 
-	"golang.org/x/vulndb/internal/genericosv"
+	"golang.org/x/vulndb/pkg/genericosv"
 )
 
 func ContainsGoModule(osv *genericosv.Entry) *Result {

@@ -17,8 +17,8 @@ import (
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/storage/memory"
 	"golang.org/x/exp/maps"
-	"golang.org/x/vulndb/internal/genericosv"
 	"golang.org/x/vulndb/internal/gitrepo"
+	"golang.org/x/vulndb/pkg/genericosv"
 )
 
 type Client struct {

@@ -13,10 +13,10 @@ import (
 	"golang.org/x/tools/txtar"
 	"golang.org/x/vulndb/cmd/vulnreport/log"
 	"golang.org/x/vulndb/internal/cve5"
-	"golang.org/x/vulndb/internal/genericosv"
 	"golang.org/x/vulndb/internal/ghsa"
 	"golang.org/x/vulndb/internal/idstr"
 	"golang.org/x/vulndb/internal/report"
+	"golang.org/x/vulndb/pkg/genericosv"
 	"gopkg.in/yaml.v3"
 )
 
